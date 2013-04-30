@@ -1,0 +1,14 @@
+name = Responsive images
+description = Responsive images
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = responsive_images
+dependencies[] = ctools
+dependencies[] = resp_img
+features[ctools][] = resp_img:default_resp_img_suffixs:1
+features[features_api][] = api:1
+features[resp_img_suffix][] = narrow
+features[resp_img_suffix][] = normal
+features[resp_img_suffix][] = smartphone_portrait
+features[resp_img_suffix][] = wide
